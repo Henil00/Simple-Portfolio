@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Henil-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <head>
+      <nav>
+        <div class="left">Henil's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </head>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hii, I am <span class="purple">Henil</span>
+          <div>And I am a</div>
+          <span id="element"></span>
+          <div>Developer</div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="Image of Graphic Cartoon doing Codding" />
+        </div>
+      </section>
+      <hr />
+      <div class="contact"><h3>Contact Me</h3></div>
+      <section class="secondsection">
+        <div class="github"><a href="https://github.com/Henil00"><img src="git.png" alt="logo for github" /></a></div>
+        <div class="instagram"><a href="https://www.instagram.com/henil.exe?igsh=bGJhemJxdjZkYWQw"><img src="insta.png" alt="logo for instagram" />
+</a>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["FullStack", "MERN Stack"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

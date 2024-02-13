@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: blueviolet;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 30px;
+
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+    
+
+}
+.firstsection > div{
+    width: 22%;
+    
+}
+.leftsection{
+    
+    font-size: 3rem;
+    
+    margin-left: 50px;
+    
+  
+}
+.rightsection{
+    display: grid;
+    width:50%;
+    height: 100%;
+    
+    margin-right: 200px;
+    
+}
+.rightsection img{
+    width: 160%;
+    margin: 50px 0;
+    
+
+}
+.purple{
+    background-color: blueviolet;
+    color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+nav ul li a:hover{
+    color: black;
+    font-size: 1.05rem;
+}
+#element{
+    color: black;
+    background-color: blueviolet;
+}
+hr{
+    color: wheat;
+    width: 90%;
+    margin: auto;
+}
+.secondsection{
+    display: flex;
+   align-items: center; 
+    margin: 25px 0;
+   
+    
+
+}
+
+
+.instagram {
+   display: grid;
+   margin-left: -400px;
+
+}
+.instagram img{
+    width: 20%;
+   
+    float: left;
+}
+.github {
+    display: contents;
+}
+.github img{
+    width: 10%;
+    margin-left: 150px;
+}
+.contact{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
